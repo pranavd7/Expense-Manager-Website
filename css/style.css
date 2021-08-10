@@ -1,0 +1,156 @@
+/* 
+    Created on : 24 Feb, 2021, 9:42:53 PM
+    Author     : Pranav Deshmukh
+*/
+
+/*for background of index */
+#banner-image{
+    padding-top: 75px;
+    /*padding-bottom: 50px;*/
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../images/bg2.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 750px;
+}
+
+/*for written content on index */
+#banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin: 0 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 660px;
+}
+
+/*for background of about us page */
+#banner-image-aboutus{
+    padding-top: 75px;
+    color: #ffffff;
+    text-shadow: 0 0 1px #000000;
+    background: url(../images/bg3.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 750px;
+    opacity: 0.9;
+}
+
+/*for footer */
+.footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+
+}
+
+/* to center the content */
+.panel-heading{
+    text-align: center;
+}
+
+/*to change text color to green */
+.panel-primary >.panel-heading{
+    background-color: green;
+}
+
+/*to add shadow to all panels */
+.panel{
+    box-shadow: 5px 5px 10px;
+}
+
+/*to add topmargin to avoid overlap with header */
+.content{
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+/*to center expense button vertically */
+#v-center{
+    padding-top: 10%;
+}
+
+/*to size 'create new plan'' panel */
+#plan{
+    width: 30%;
+    min-height: 100px;
+    padding-top: 5%;
+    margin: auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    border: 1px solid;
+}
+
+/*to center align and change default colors of buttons */
+.button{
+    color: green;
+    text-align: center;
+}
+.button:hover{
+    color: white;
+    background-color: green;
+}
+.btn-default{
+    border-color: green;
+}
+.btn-primary{
+    background-color: green;
+    border-color: green;
+}
+.btn-primary:hover{
+    color:black;
+    background-color: darkgreen;
+}
+
+/*to place and color 'create new plan' glyph */
+.newplan{
+    position: fixed;
+    float: right;
+    right: 5%;
+    bottom: 5%;
+    font-size: 75px;
+
+}
+.glyphicon.glyphicon-plus-sign {
+    color: green;
+}
+
+/*to change float for use in panel headings */
+.glyphicon.glyphicon-user{
+    float: right;
+}
+
+/*to change float and colors of different texts */
+.right{
+    float: right !important;
+}
+.text-red{
+    color: red;
+}
+.text-green{
+    color: green;
+}
+
+/*to change default opacity */
+.navbar-brand:hover{
+    opacity: 0.8;
+}
+
+/*to force center align texts */
+.h-center{
+    text-align: center !important;
+}
+
+/*to remove arrows from input type=number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
